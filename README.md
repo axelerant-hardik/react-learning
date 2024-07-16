@@ -1,2 +1,2 @@
 # react-learning
-Contains exercises related to React learning
+Each branch represents an exercise of the React learning course.
