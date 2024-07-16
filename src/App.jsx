@@ -1,5 +1,11 @@
+import { Name } from "./Name"
+
 function App() {
-  return "Hello World"
+  return (
+    <div>
+      <Name />
+    </div>
+  )
 }
 
 export default App
