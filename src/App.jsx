@@ -1,5 +1,11 @@
+import { NameClass } from "./NameClass"
+
 function App() {
-  return "Hello World"
+  return (
+    <div>
+      <NameClass />
+    </div>
+  )
 }
 
 export default App
