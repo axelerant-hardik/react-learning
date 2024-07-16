@@ -1,8 +1,11 @@
-// Create a div with class large and id largeDiv with text Hi.
+// Remove text Hi.
+// Add label with prop set to inputId and any text.
+// Add an input with id inputId, type number and value of 3 as a number.
 function App() {
   return (
     <div id="largeDiv" className="large">
-      Hi
+      <label htmlFor="inputId">Number</label>
+      <input type="number" id="inputId" value={3} />
     </div>
   )
 }
