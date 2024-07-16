@@ -1,9 +1,9 @@
-import { Name } from "./Name"
+import { NameClass } from "./NameClass"
 
 function App() {
   return (
     <div>
-      <Name />
+      <NameClass />
     </div>
   )
 }
