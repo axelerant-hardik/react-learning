@@ -1,5 +1,11 @@
+import { NameCounter } from "./NameCounter"
+
 function App() {
-  return "Hello World"
+  return (
+    <div className="wrapper">
+      <NameCounter />
+    </div>
+  )
 }
 
 export default App
