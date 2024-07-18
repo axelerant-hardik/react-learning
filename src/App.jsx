@@ -1,5 +1,8 @@
+import { TodoForm } from "./TodoForm"
+import "./assets/styles.css"
+
 function App() {
-  return "Hello World"
+  return <TodoForm />
 }
 
 export default App
