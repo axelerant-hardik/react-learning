@@ -1,5 +1,8 @@
+import { StateForm } from "./StateForm"
+import "./assets/styles.css"
+
 function App() {
-  return "Hello World"
+  return <StateForm />
 }
 
 export default App
