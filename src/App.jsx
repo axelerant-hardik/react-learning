@@ -1,5 +1,8 @@
+import { RefForm } from "./RefForm"
+import "./assets/styles.css"
+
 function App() {
-  return "Hello World"
+  return <RefForm />
 }
 
 export default App
