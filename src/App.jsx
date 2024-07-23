@@ -1,5 +1,8 @@
+import { Todo } from "./Todo"
+import "./assets/styles.css"
+
 function App() {
-  return "Hello World"
+  return <Todo />
 }
 
 export default App
