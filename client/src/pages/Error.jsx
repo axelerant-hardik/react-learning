@@ -6,6 +6,7 @@ export function Error() {
   return (
     <div className="error">
       <h2>The page encountered an unexpected error.</h2>
+      {/* Display stack for non-production environments. */}
       {import.meta.env.MODE != "production" && (
         <>
           <pre>{error.stack}</pre>

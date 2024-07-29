@@ -1,11 +1,21 @@
 import { Link, useLoaderData } from "react-router-dom"
+import { FilterPosts } from "../components/actions/FilterPosts"
 
 export function Posts() {
-  const posts = useLoaderData()
+  const { posts, searchParams } = useLoaderData()
 
   return (
     <>
-      <h1 className="page-title">Posts</h1>
+      <h1 className="page-title">
+        Posts
+        {/* Add button to add a new post. */}
+        <div className="title-btns">
+          <Link to="add" className="btn btn-outline">
+            New
+          </Link>
+        </div>
+      </h1>
+      <FilterPosts {...searchParams} />
       <div className="card-grid">
         {posts.map((post) => {
           return (

@@ -7,6 +7,7 @@ export function Header() {
   return (
     <>
       <Navbar />
+      {/* Show loading state. */}
       {state === "loading" ? (
         <div className="loading-spinner"></div>
       ) : undefined}
